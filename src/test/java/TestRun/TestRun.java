@@ -6,9 +6,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-features= {".//Features/flipkart.feature"},
+features= {".//Features/login.feature"},
 glue= {"StepDef","Hooks"},
-tags= "@Sanity",
 dryRun=false,
 monochrome=true,
 plugin= {"pretty","html:target/cucumber-reports.html"}
